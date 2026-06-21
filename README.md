@@ -83,10 +83,13 @@ Contém toda a interface do sistema desenvolvida com HTML, CSS e JavaScript.
 
 Armazena a documentação e relatórios relacionados ao desenvolvimento do projeto.
 
-#### prototipo
+## Protótipo do Sistema
 
-Contém os protótipos das telas e materiais de planejamento visual do sistema.
+O protótipo das telas foi desenvolvido utilizando a ferramenta Figma, permitindo a visualização da interface e da experiência do usuário antes da implementação.
 
+**Acesse o protótipo:**
+
+[Link do protótipo](https://www.figma.com/proto/HIWv4jsaap49JbO83G7VOU/Mente-Acad%C3%AAmica-%E2%80%93-Login-UI?node-id=0-1&t=P493OGFkXjqCe4KB-1)
 ---
 
 ## Estrutura do Banco de Dados
