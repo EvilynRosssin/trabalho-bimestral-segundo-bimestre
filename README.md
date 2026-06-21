@@ -1,6 +1,6 @@
 # Sistema de Monitoramento de Saúde Mental nas Escolas
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido como atividade acadêmica com o objetivo de criar um sistema voltado ao acompanhamento da saúde mental de estudantes no ambiente escolar.
 
@@ -10,7 +10,7 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Permitir o cadastro e gerenciamento de usuários.
 * Registrar o humor dos usuários ao longo do tempo.
@@ -20,7 +20,7 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 * Nome do Integrante 1
 * Nome do Integrante 2
@@ -29,7 +29,7 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 
@@ -43,7 +43,7 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 
 ---
 
-## 📂 Organização das Pastas
+## Organização das Pastas
 
 ```text
 projeto/
@@ -89,7 +89,7 @@ Contém os protótipos das telas e materiais de planejamento visual do sistema.
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 O banco de dados foi modelado utilizando cinco entidades principais:
 
@@ -115,7 +115,7 @@ Armazena frases motivacionais exibidas de acordo com o dia da semana.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 * Cadastro de usuários.
 * Registro de humor diário.
@@ -126,6 +126,6 @@ Armazena frases motivacionais exibidas de acordo com o dia da semana.
 
 ---
 
-## 📚 Contexto Acadêmico
+## Contexto Acadêmico
 
 Este projeto foi desenvolvido para fins educacionais, aplicando conceitos de modelagem de banco de dados, normalização, criação de CRUD, desenvolvimento web e organização de projetos de software.
