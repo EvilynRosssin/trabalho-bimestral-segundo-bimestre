@@ -23,7 +23,7 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 ## Integrantes
 
 * Ana Clara Ferreira 
-* Evilyn Rossin Nesk
+* Evilyn Rossin
 * Gustavo Oliveira
 * Ryan Rodrigues Yasmin Dias
 
