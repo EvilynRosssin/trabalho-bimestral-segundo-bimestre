@@ -1,7 +1,3 @@
-// ============================================================
-//  Mente Acadêmica — Login (JavaScript Vanilla)
-// ============================================================
-
 const form = document.getElementById("login-form")
 const emailInput = document.getElementById("email")
 const passwordInput = document.getElementById("password")
@@ -10,7 +6,6 @@ const passwordError = document.getElementById("password-error")
 const toggleBtn = document.getElementById("toggle-password")
 const submitBtn = document.getElementById("btn-submit")
 
-// ---- Mostrar / ocultar senha ----------------------------------
 toggleBtn.addEventListener("click", () => {
   const isHidden = passwordInput.type === "password"
   passwordInput.type = isHidden ? "text" : "password"
@@ -22,7 +17,6 @@ toggleBtn.addEventListener("click", () => {
   )
 })
 
-// ---- Helpers de validação -------------------------------------
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 function setError(input, errorEl, message) {
@@ -61,7 +55,6 @@ function validatePassword() {
   return true
 }
 
-// Limpa o erro enquanto o usuário corrige
 emailInput.addEventListener("input", () => {
   if (emailInput.closest(".field").classList.contains("invalid")) validateEmail()
 })
@@ -70,7 +63,6 @@ passwordInput.addEventListener("input", () => {
     validatePassword()
 })
 
-// ---- Submit ----------------------------------------------------
 form.addEventListener("submit", (event) => {
   event.preventDefault()
 
@@ -78,13 +70,11 @@ form.addEventListener("submit", (event) => {
   const passwordOk = validatePassword()
 
   if (!emailOk || !passwordOk) {
-    // foca o primeiro campo inválido
     if (!emailOk) emailInput.focus()
     else passwordInput.focus()
     return
   }
 
-  // Estado de loading simulado
   submitBtn.classList.add("is-loading")
   submitBtn.disabled = true
 

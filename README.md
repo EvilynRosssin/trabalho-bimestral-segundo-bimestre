@@ -25,7 +25,8 @@ O sistema busca promover a conscientização sobre a importância da saúde ment
 * Ana Clara Ferreira 
 * Evilyn Rossin
 * Gustavo Oliveira
-* Ryan Rodrigues Yasmin Dias
+* Ryan Rodrigues 
+* Yasmin Dias
 
 ---
 

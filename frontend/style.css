@@ -1,6 +1,3 @@
-/* ============================================================
-   Variáveis
-   ============================================================ */
 :root {
   --primary: #56c287;
   --primary-dark: #45b071;
@@ -28,9 +25,6 @@
   --font-display: "Poppins", var(--font-sans);
 }
 
-/* ============================================================
-   Reset
-   ============================================================ */
 *,
 *::before,
 *::after {
@@ -56,18 +50,12 @@ a {
   color: inherit;
 }
 
-/* ============================================================
-   Layout principal — duas colunas
-   ============================================================ */
 .page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
 }
 
-/* ============================================================
-   COLUNA ESQUERDA / institucional
-   ============================================================ */
 .brand-panel {
   position: relative;
   display: flex;
@@ -203,9 +191,6 @@ a {
   color: var(--text-light);
 }
 
-/* ============================================================
-   COLUNA DIREITA / login
-   ============================================================ */
 .login-panel {
   position: relative;
   display: flex;
@@ -258,7 +243,6 @@ a {
   gap: 1.1rem;
 }
 
-/* Campos */
 .field {
   display: flex;
   flex-direction: column;
@@ -308,7 +292,6 @@ a {
   line-height: 1.3;
 }
 
-/* Senha + toggle */
 .password-wrap {
   position: relative;
 }
@@ -357,7 +340,6 @@ a {
   display: block;
 }
 
-/* Linha checkbox / link */
 .form-row {
   display: flex;
   align-items: center;
@@ -432,7 +414,6 @@ a {
   text-decoration: underline;
 }
 
-/* Botão */
 .btn-submit {
   position: relative;
   display: inline-flex;
@@ -512,18 +493,12 @@ a {
   color: var(--text-light);
 }
 
-/* Rodapé */
 .login-footer {
   margin-top: clamp(1.5rem, 3vw, 2.5rem);
   font-size: 0.72rem;
   color: var(--text-light);
 }
 
-/* ============================================================
-   Responsividade
-   ============================================================ */
-
-/* Tablet — mantém duas colunas com espaçamentos reduzidos */
 @media (max-width: 992px) {
   .brand-panel,
   .login-panel {
@@ -531,7 +506,6 @@ a {
   }
 }
 
-/* Mobile — uma coluna: cabeçalho + card de login */
 @media (max-width: 768px) {
   .page {
     grid-template-columns: 1fr;
@@ -549,7 +523,6 @@ a {
     min-height: 100dvh;
   }
 
-  /* Cabeçalho mobile */
   .mobile-header {
     position: relative;
     display: flex;
@@ -616,7 +589,6 @@ a {
     color: var(--text-light);
   }
 
-  /* Painel branco único (intro + form) que sobe sobre o cabeçalho */
   .login-wrap {
     position: relative;
     z-index: 2;
@@ -637,7 +609,6 @@ a {
     font-size: 1.2rem;
   }
 
-  /* o card interno deixa de ter moldura própria no mobile */
   .login-card {
     background: transparent;
     box-shadow: none;
@@ -650,7 +621,6 @@ a {
   }
 }
 
-/* Telas muito pequenas */
 @media (max-width: 480px) {
   .login-wrap {
     width: 92%;
